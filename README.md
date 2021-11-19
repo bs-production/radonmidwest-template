@@ -1,6 +1,6 @@
-# Sure Dry template
+# Radon Midwest template
 
-Converting Sure Dry's website to new design from Adobe XD design spec
+Converting Radon Midwest's website to new design from Adobe XD design spec
 
 ## Prerequisites
 
