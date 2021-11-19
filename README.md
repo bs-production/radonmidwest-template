@@ -9,6 +9,8 @@ Converting Sure Dry's website to new design from Adobe XD design spec
 
 ## Run Locally
 
+> This project depends on yarn.lock so yarn should be used exclusively
+
 **Clone the project**
 
 ```bash
@@ -24,34 +26,16 @@ Converting Sure Dry's website to new design from Adobe XD design spec
 **Install dependencies**
 
 ```bash
-  npm install
-```
-
-_or_
-
-```bash
   yarn
 ```
 
 **Start the dev server**
 
 ```bash
-  npm start
-```
-
-_or_
-
-```bash
   yarn start
 ```
 
 **Reset cache**
-
-```bash
-  npm run clean
-```
-
-_or_
 
 ```bash
   yarn run clean
@@ -64,12 +48,6 @@ _or_
 > The borders file needs to build manually
 
 To retrieve the compiled html and minified CSS and Javascript:
-
-```bash
-  npm build
-```
-
-_or_
 
 ```bash
   yarn build
