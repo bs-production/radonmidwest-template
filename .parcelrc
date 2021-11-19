@@ -1,4 +1,4 @@
 {
   "extends": "@parcel/config-default",
-  "reporters": ["parcel-reporter-bundle-manifest"]
+  "namers": ["@bs-production/parcel-namer-scripts-styles", "parcel-namer-rewrite"]
 }
