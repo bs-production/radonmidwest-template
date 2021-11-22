@@ -1,0 +1,15 @@
+{
+  "name": "@bs-production/posthtml-plugin-img-format",
+  "version": "1.0.0",
+  "description": "Format Images to match ParcelJS image optimizations",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Stephan Burger <stephanburger54@gmail.com>",
+  "engines": {
+    "parcel": "^2.0.1",
+    "node": ">= 10.0.0"
+  },
+  "scripts": {
+    "build": "echo \"DONE!, Nothing to do really 🤷🏽\""
+  }
+}
