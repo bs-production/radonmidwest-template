@@ -1,12 +1,12 @@
-.solutions {
+.services {
   @apply mx-auto max-w-screen-2xl;
 
-  .solutions-header {
+  .services-header {
     @apply text-5xl font-black text-center mb-14
       md:text-3xl md:mb-4;
   }
 
-  .solutions-blocks-container {
+  .services-blocks-container {
     @apply grid grid-cols-2 grid-rows-2 mx-16 mb-14 gap-x-16 gap-y-16
       lg:gap-x-4 lg:gap-y-4
       md:mx-8 md:mb-8;
