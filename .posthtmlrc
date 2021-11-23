@@ -1,6 +1,8 @@
 {
   "plugins": {
-    "posthtml-include": { "root": "src/html" },
+    "posthtml-include": {
+      "root": "src/html"
+    },
     "posthtml-inline-svg": {},
     "posthtml-expressions": {
       "locals": {
@@ -8,6 +10,7 @@
         "showBreadcrumbs": true
       }
     },
-    "posthtml-beautify": {}
+    "posthtml-beautify": {},
+    "@bs-production/posthtml-plugin-img-format": {}
   }
 }

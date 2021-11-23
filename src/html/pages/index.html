@@ -1,62 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[[title]]</title>
+    <meta name="description" content="[[description]]">
+    <meta name="keywords" content="[[keywords]]">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>[[title]]</title>
-  <meta name="description" content="[[description]]">
-  <meta name="keywords" content="[[keywords]]">
+    <!-- Favicon -->
+    <link rel="icon" href="../../assets/favicon.png" />
 
-  <!-- Favicon -->
-  <link rel="icon" href="../../assets/nrd-favicon.ico" />
+    <!-- Tailwind reset and styles -->
+    <link rel="stylesheet" href="../../styles/global/index.css" />
 
-  <!-- Tailwind reset and styles -->
-  <link rel="stylesheet" href="../../styles/global/index.css" />
+    <!-- Paged Imports -->
+    <link rel="stylesheet" href="../../styles/_page_imports/home.scss" />
 
-  <!-- Paged Imports -->
-  <link rel="stylesheet" href="../../styles/_page_imports/home.scss" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <include src="sections/navbar.html"></include>
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;900&family=Roboto+Condensed:wght@700&display=swap"
-    rel="stylesheet">
-</head>
+    <!-- Main Content -->
+    <main style="z-index: -1">
+      <!-- Hero -->
+      <include src="sections/hero.html"></include>
 
-<body>
-  <!-- Navigation -->
-  <include src="sections/navbar.html"></include>
+      <!-- Solutions -->
+      <include src="sections/solutions.html"></include>
 
-  <!-- Main Content -->
-  <main style="z-index: -1">
-    <!-- Hero -->
-    <include src="sections/hero.html"></include>
+      <!-- Social Proof -->
+      <include src="sections/social_proof.html"></include>
 
-    <!-- Solutions -->
-    <include src="sections/solutions.html"></include>
+      <!-- Features -->
+      <include src="sections/features.html"></include>
 
-    <!-- Social Proof -->
-    <include src="sections/social_proof.html"></include>
+      <!-- About -->
+      <include src="sections/about.html"></include>
 
-    <!-- Features -->
-    <include src="sections/features.html"></include>
+      <!-- Services Areas -->
+      <include src="sections/service_areas.html"></include>
+    </main>
 
-    <!-- About -->
-    <include src="sections/about.html"></include>
+    <!-- Footer -->
+    <include src="sections/footer.html"></include>
 
-    <!-- Services Areas -->
-    <include src="sections/service_areas.html"></include>
-  </main>
+    <script type="module" src="../../scripts/_page_imports/home.ts"></script>
 
-  <!-- Footer -->
-  <include src="sections/footer.html"></include>
-
-  <!-- Super nav -->
-  <script src="../../scripts/_page_imports/home.ts"></script>
-
-  <!-- Dev GUI -->
-  <script src="../../scripts/dev_tools/index.ts"></script>
-</body>
-
+    <!-- Dev GUI -->
+    <script type="module" src="../../scripts/dev_tools/index.ts"></script>
+  </body>
 </html>

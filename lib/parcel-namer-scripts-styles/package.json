@@ -1,0 +1,14 @@
+{
+  "name": "@bs-production/parcel-namer-scripts-styles",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Stephan Burger <stephanburger54@gmail.com>",
+  "engines": {
+    "parcel": "^2.0.1",
+    "node": ">= 10.0.0"
+  },
+  "scripts": {
+    "build": "echo \"DONE!, Nothing to do really 🤷🏽\""
+  }
+}
