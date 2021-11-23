@@ -6,8 +6,8 @@ module.exports = {
   darkMode: false,
   theme: {
     fontFamily: {
-      sans: ["Montserrat", "sans-serif"],
-      serif: ["Montserrat", "serif"],
+      sans: ["Raleway", "sans-serif"],
+      serif: ["Raleway", "serif"],
     },
 
     screens: {
@@ -29,7 +29,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#D4392A",
+        primary: "#ad172b",
         secondary: "#0F71B3",
         gray: {
           50: "#f7f7f7",

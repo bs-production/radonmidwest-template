@@ -97,9 +97,9 @@
       md:px-8 md:pb-16
       sm:grid-cols-1 sm:place-items-start;
 
-    .feautured-item {
+    .featured-item {
       @apply grid grid-cols-1 sm:gap-x-2
-        sm:place-items-center;
+        sm:place-items-center justify-items-center;
       max-width: 280px;
 
       @screen sm {
@@ -119,13 +119,13 @@
         .featured-item-title {
           @apply mb-2 text-2xl font-bold
             md:text-xl
-            sm:text-base sm:mb-0;
+            sm:text-base sm:mb-0 text-center;
         }
 
         .featured-item-subtitle {
           @apply text-xl
             md:text-base
-            sm:text-xs;
+            sm:text-xs text-center;
         }
       }
     }
