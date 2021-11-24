@@ -199,7 +199,7 @@
       <!-- Bottom Banner -->
       <section class="bottom-footer">
         <span class="text-span">
-          <span class="text-bold"> © <?= date('Y'); ?> Sure-Dry Basement Systems </span>
+          <span class="text-bold"> © <?= date('Y'); ?> [company] Basement Systems </span>
         </span>
       </section>
     </footer>

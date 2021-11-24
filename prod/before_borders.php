@@ -51,13 +51,13 @@
     );
     private $devLinks = array(
       // JS files
-      "home.js" => "https://raw.githubusercontent.com/bs-production/sure-dry-template/master/prod/home.js",
-      "content.js" => "https://raw.githubusercontent.com/bs-production/sure-dry-template/master/prod/content.js",
-      "dev_tools.js" => "https://raw.githubusercontent.com/bs-production/sure-dry-template/master/prod/dev_tools.js",
+      "home.js" => "https://raw.githubusercontent.com/bs-production/radonmidwest-template/master/prod/home.js",
+      "content.js" => "https://raw.githubusercontent.com/bs-production/radonmidwest-template/master/prod/content.js",
+      "dev_tools.js" => "https://raw.githubusercontent.com/bs-production/radonmidwest-template/master/prod/dev_tools.js",
 
       // Css files
-      "homepage.css" => "https://raw.githubusercontent.com/bs-production/sure-dry-template/master/prod/homepage.css",
-      "content.css" => "https://raw.githubusercontent.com/bs-production/sure-dry-template/master/prod/content.css"
+      "homepage.css" => "https://raw.githubusercontent.com/bs-production/radonmidwest-template/master/prod/homepage.css",
+      "content.css" => "https://raw.githubusercontent.com/bs-production/radonmidwest-template/master/prod/content.css"
     );
     private $prodLinks = array(
       // Css files
@@ -312,18 +312,15 @@
           'class' => 'columned',
           'target' => 'services'
         ),
-        17856 => array(
-          'class' => 'simple',
-          'children' => array(32810,114693,17850,17853,17857,17859,40112,29188,31194,231032, 234827)
+        'Our Work' => array(
+            'target' => 'work'
         ),
-        32810 => array(
-          'grandchildren' => false
+        215488 => array(
+          'class' => 'simple',
+          'target' => 'about'
         ),
         'Service Area' => array(
           'target' => 'map',
-        ),
-        235370 => array(
-          'grandchildren' => true
         ),
         'Free Quote' => array(
           'class' => 'quote',

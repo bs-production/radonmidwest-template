@@ -426,7 +426,7 @@
       <!-- Bottom Banner -->
       <section class="bottom-footer">
         <span class="text-span">
-          <span class="text-bold"> © <?php echo(date('Y')); ?> Sure-Dry Basement Systems </span>
+          <span class="text-bold"> © <?php echo(date('Y')); ?> [company] Basement Systems </span>
           
         </span>
     

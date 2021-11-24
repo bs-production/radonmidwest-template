@@ -14,7 +14,7 @@ Converting Radon Midwest's website to new design from Adobe XD design spec
 **Clone the project**
 
 ```bash
-  git clone https://github.com/bs-production/sure-dry-template project-name
+  git clone https://github.com/bs-production/[company]-template project-name
 ```
 
 **Go to the project directory**

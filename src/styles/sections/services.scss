@@ -38,7 +38,7 @@
       }
 
       .info-container {
-        @apply col-start-1 col-end-3 row-start-2 z-10 shadow-2xl relative
+        @apply col-start-1 col-end-3 row-start-2 z-10 relative
           lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2 lg:w-auto lg:flex lg:justify-center lg:items-center lg:p-4;
         width: 330px;
 
@@ -48,8 +48,7 @@
 
         .info-heading {
           @apply py-4 px-8
-            lg:hidden;
-          background-color: #231f20;
+            lg:hidden bg-primary;
 
           .info-heading-text {
             @apply text-xl font-semibold text-white;
@@ -58,8 +57,7 @@
 
         .info-detail {
           @apply py-4 px-8
-            lg:hidden;
-          background-color: #4a4a4a;
+            lg:hidden bg-tertiary;
 
           .info-detail-heading {
             @apply mb-2 font-semibold text-white;
@@ -71,9 +69,9 @@
         }
 
         .info-cta {
-          @apply hover:bg-primary cursor-pointer py-3 px-8 block
+          @apply bg-tertiary transition-all hover:bg-secondary cursor-pointer py-3 px-8 block
             lg:hidden;
-          background-color: #4a4a4a;
+
 
           .info-cta-text {
             @apply text-sm font-semibold text-white;
