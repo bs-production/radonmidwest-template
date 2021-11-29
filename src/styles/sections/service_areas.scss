@@ -1,6 +1,6 @@
 .service-areas {
   @apply gap-y-10 gap-x-24
-    2xl:gap-x-16
+    2xl:gap-x-0
     md:gap-x-8 md:gap-y-8;
 
   display: grid;
@@ -18,7 +18,7 @@
   }
 
   .service-areas-map-container {
-    @apply relative col-start-2 col-end-4 row-start-2 row-end-3
+    @apply relative col-start-2 col-end-4 row-start-1 row-end-3 mx-8
       lg:col-start-1 lg:col-end-4 lg:row-start-2 lg:row-end-3;
     z-index: 5;
   }
