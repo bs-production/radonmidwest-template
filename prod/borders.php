@@ -63,7 +63,7 @@
           <a href='/'>
             <img
               class="object-contain- object-left- img"
-              src="https://cdn.treehouseinternetgroup.com/cms_images/101/logo.f311f897.png"
+              src="https://cdn.treehouseinternetgroup.com/cms_images/2848/logo.f311f897.png"
             />
           </a>
         </div>
@@ -131,16 +131,16 @@
         <div class="service-areas-map-container">
           <picture>
             <source
-              srcset="https://cdn.treehouseinternetgroup.com/cms_images/101/map.opt.avif"
+              srcset="https://cdn.treehouseinternetgroup.com/cms_images/2848/map.opt.avif"
               type="image/avif"
             />
             <source
-              srcset="https://cdn.treehouseinternetgroup.com/cms_images/101/map.opt.webp"
+              srcset="https://cdn.treehouseinternetgroup.com/cms_images/2848/map.opt.webp"
               type="image/webp"
             />
             <img
-              class="object-cover- img"
-              src="https://cdn.treehouseinternetgroup.com/cms_images/101/map.opt.jpg"
+              class="object-contain- img"
+              src="https://cdn.treehouseinternetgroup.com/cms_images/2848/map.opt.jpg"
             />
           </picture>
         </div>
@@ -148,16 +148,16 @@
         <div class="service-areas-bg-container">
           <picture>
             <source
-              srcset="https://cdn.treehouseinternetgroup.com/cms_images/101/noise.opt.avif"
+              srcset="https://cdn.treehouseinternetgroup.com/cms_images/2848/noise.opt.avif"
               type="image/avif"
             />
             <source
-              srcset="https://cdn.treehouseinternetgroup.com/cms_images/101/noise.opt.webp"
+              srcset="https://cdn.treehouseinternetgroup.com/cms_images/2848/noise.opt.webp"
               type="image/webp"
             />
             <img
               class="img service-areas-bg-image"
-              src="https://cdn.treehouseinternetgroup.com/cms_images/101/noise.opt.jpg"
+              src="https://cdn.treehouseinternetgroup.com/cms_images/2848/noise.opt.jpg"
             />
           </picture>
         </div>

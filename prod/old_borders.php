@@ -138,12 +138,12 @@
   
 
   if($pageType == "HOME") {
-    $topInject .= '<link rel="stylesheet" type="text/css" href="https://cdn.treehouseinternetgroup.com/cms_images/101/homepage.css?v2">';
-    $bottomInject .= '<script src="https://cdn.treehouseinternetgroup.com/cms_images/101/home.js?v1"></script>';
+    $topInject .= '<link rel="stylesheet" type="text/css" href="https://cdn.treehouseinternetgroup.com/cms_images/2848/homepage.css?v2">';
+    $bottomInject .= '<script src="https://cdn.treehouseinternetgroup.com/cms_images/2848/home.js?v1"></script>';
   } elseif ($pageType == "CONTENT") {
     // TODO: inject proper macro styles
-    $topInject .= '<link rel="stylesheet" type="text/css" href="https://cdn.treehouseinternetgroup.com/cms_images/101/content.css?v2">';
-    $bottomInject .= '<script src="https://cdn.treehouseinternetgroup.com/cms_images/101/content.js?v1"></script>';
+    $topInject .= '<link rel="stylesheet" type="text/css" href="https://cdn.treehouseinternetgroup.com/cms_images/2848/content.css?v2">';
+    $bottomInject .= '<script src="https://cdn.treehouseinternetgroup.com/cms_images/2848/content.js?v1"></script>';
 
     if(strpos($thePage, 'free-estimate') !== false) {
       // Inject jquery
@@ -168,7 +168,7 @@
 
   // Dev Specific
   if($isDevelopmentMode) {
-    $bottomInject .= '<script src="https://cdn.treehouseinternetgroup.com/cms_images/101/dev_tools.js"></script>';
+    $bottomInject .= '<script src="https://cdn.treehouseinternetgroup.com/cms_images/2848/dev_tools.js"></script>';
   }
 
   /**
@@ -284,7 +284,7 @@
           <a href='/'>
             <img
               class="object-contain- object-left- img"
-              src="https://cdn.treehouseinternetgroup.com/cms_images/101/logo.f311f897.png"
+              src="https://cdn.treehouseinternetgroup.com/cms_images/2848/logo.f311f897.png"
             />
           </a>
         </div>
@@ -358,16 +358,16 @@
         <div class="service-areas-map-container">
           <picture>
             <source
-              srcset="https://cdn.treehouseinternetgroup.com/cms_images/101/map.opt.avif"
+              srcset="https://cdn.treehouseinternetgroup.com/cms_images/2848/map.opt.avif"
               type="image/avif"
             />
             <source
-              srcset="https://cdn.treehouseinternetgroup.com/cms_images/101/map.opt.webp"
+              srcset="https://cdn.treehouseinternetgroup.com/cms_images/2848/map.opt.webp"
               type="image/webp"
             />
             <img
               class="object-cover- img"
-              src="https://cdn.treehouseinternetgroup.com/cms_images/101/map.opt.jpg"
+              src="https://cdn.treehouseinternetgroup.com/cms_images/2848/map.opt.jpg"
             />
           </picture>
         </div>
@@ -375,16 +375,16 @@
         <div class="service-areas-bg-container">
           <picture>
             <source
-              srcset="https://cdn.treehouseinternetgroup.com/cms_images/101/noise.opt.avif"
+              srcset="https://cdn.treehouseinternetgroup.com/cms_images/2848/noise.opt.avif"
               type="image/avif"
             />
             <source
-              srcset="https://cdn.treehouseinternetgroup.com/cms_images/101/noise.opt.webp"
+              srcset="https://cdn.treehouseinternetgroup.com/cms_images/2848/noise.opt.webp"
               type="image/webp"
             />
             <img
               class="img service-areas-bg-image"
-              src="https://cdn.treehouseinternetgroup.com/cms_images/101/noise.opt.jpg"
+              src="https://cdn.treehouseinternetgroup.com/cms_images/2848/noise.opt.jpg"
             />
           </picture>
         </div>

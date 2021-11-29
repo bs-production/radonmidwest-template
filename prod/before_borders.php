@@ -62,19 +62,19 @@
     private $prodLinks = array(
       // Css files
       "template.css" => "/inc/sb-styles.css?v=3",
-      "homepage.css" => "https://s3.amazonaws.com/cdn.treehouseinternetgroup.com/cms_images/101/homepage.css",
-      "content.css" => "https://s3.amazonaws.com/cdn.treehouseinternetgroup.com/cms_images/101/content.css",
+      "homepage.css" => "https://s3.amazonaws.com/cdn.treehouseinternetgroup.com/cms_images/2848/homepage.css",
+      "content.css" => "https://s3.amazonaws.com/cdn.treehouseinternetgroup.com/cms_images/2848/content.css",
 
       // Js files
       "jquery.js" => "https://cdn.treehouseinternetgroup.com/cms_core/assets/js/jquery.min.js",
       "jquery.colorbox.js" => "https://cdn.treehouseinternetgroup.com/cms_core/assets/js/jquery.colorbox-min.js",
-      "home.js" => "https://s3.amazonaws.com/cdn.treehouseinternetgroup.com/cms_images/101/home.js",
-      "content.js" => "https://s3.amazonaws.com/cdn.treehouseinternetgroup.com/cms_images/101/content.js",
+      "home.js" => "https://s3.amazonaws.com/cdn.treehouseinternetgroup.com/cms_images/2848/home.js",
+      "content.js" => "https://s3.amazonaws.com/cdn.treehouseinternetgroup.com/cms_images/2848/content.js",
       
       "embla-carousel.js" => "https://unpkg.com/embla-carousel/embla-carousel.umd.js",
       
       // Meta
-      "favicon.ico" => "http://images.suredrybasements.com/101/Sure_Dry_Circle_Only.png",
+      "favicon.ico" => "/core/images/universal/favicon/nrd-favicon.ico",
 
       // Fonts
       "fonts.preconnect" => "https://fonts.gstatic.com",
