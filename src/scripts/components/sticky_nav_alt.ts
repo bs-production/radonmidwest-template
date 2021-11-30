@@ -106,36 +106,6 @@ class StickyNavAlt {
    * Some styles do not take into account
    * the sticky nav. So I'm just compansating here
    */
-  private _createCompansatingStyles() {
-    const defaultTopStyle = 16;
-    const navHeight = 72;
-
-    let stylesToInsert = ``;
-
-    /**
-     * SILO
-     * ========
-     */
-    stylesToInsert += `
-      @media (min-width: 1023px) {
-        #silo-container {
-          top: ${defaultTopStyle + navHeight}px !important;
-        }
-      }
-    `;
-
-    if (this.styleCompansationDefRef) {
-      this.styleCompansationDefRef.innerHTML = stylesToInsert;
-    } else {
-      this.styleCompansationDefRef = document.createElement("style");
-      this.styleCompansationDefRef.type = "text/css";
-      this.styleCompansationDefRef.innerHTML = stylesToInsert;
-
-      document
-        .getElementsByTagName("head")[0]
-        .appendChild(this.styleCompansationDefRef);
-    }
-  }
 
   private _siloFixes() {
     const defaultTopStyle = 18;
@@ -214,10 +184,18 @@ class StickyNavAlt {
 
   private _autoHideNavigation() {
     const silo = document.querySelector("#silo-container");
+    const realNavTop = this.navReal.getBoundingClientRect().top;
 
     this.currentTop = window.scrollY;
     const isFastEnough =
       Math.abs(this.previousTop - this.currentTop) > this.scrollThreshold;
+
+    // Make sure the real nav is treated as reference point
+    if (realNavTop >= 0) {
+      this.navClone.style.display = "none";
+    } else {
+      this.navClone.style.display = "";
+    }
 
     if (this.currentTop >= this.navReal.getBoundingClientRect().height) {
       // Checking can now happen
