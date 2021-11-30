@@ -63,7 +63,7 @@
           <a href='/'>
             <img
               class="object-contain- object-left- img"
-              src="https://cdn.treehouseinternetgroup.com/cms_images/2848/logo.f311f897.png"
+              src="https://cdn.treehouseinternetgroup.com/cms_images/2848/rdm-logo.svg"
             />
           </a>
         </div>

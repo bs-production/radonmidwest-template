@@ -4,3 +4,7 @@
 * {
   box-sizing: border-box;
 }
+.broadcast2-wrap.urgent {
+    z-index:1100;
+    position:relative;
+}

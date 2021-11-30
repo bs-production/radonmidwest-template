@@ -115,7 +115,7 @@
 
       // Set helpers
       $this->isCityPage = (strpos($thePage, 'service-area') !== false) && (strpos($thePage, '/') !== false);
-      $this->isDev = (!empty($_GET['dev_template']) && $_GET['dev_template'] == 1) || (!empty($_GET['dev_content']) && $_GET['dev_content'] == 1);
+      $this->isDev = true;
       $this->isTest = (!empty($_GET['test']) && $_GET['test'] == 1);
 
       $this->handleSetters();
