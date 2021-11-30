@@ -1,7 +1,6 @@
 .service-areas {
   @apply gap-y-10 gap-x-24
-  sm:gap-x-8 md:gap-y-8
-  lg:gap-x-0;
+  sm:gap-x-8 md:gap-y-8;
 
   display: grid;
   grid-template-columns: auto 1fr 2fr auto;
