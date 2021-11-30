@@ -6,7 +6,7 @@
   "license": "MIT",
   "isLibrary": false,
   "browserslist": [
-    "> 0.5%, last 2 versions, Edge 15"
+    "Edge 15"
   ],
   "parcel-namer-rewrite": {
     "developmentHashing": true,
